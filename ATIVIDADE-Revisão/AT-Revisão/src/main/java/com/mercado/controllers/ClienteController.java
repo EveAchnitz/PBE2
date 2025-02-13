@@ -34,7 +34,7 @@ public class ClienteController {
 	}
 	
 	@GetMapping("/{id}")
-	public Cliente getProdutoById(@PathVariable long id) {
+	public Cliente getClienteById(@PathVariable long id) {
 		return clienteService.getClienteById(id);
 	}
 	
