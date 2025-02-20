@@ -1,0 +1,12 @@
+body{
+    display: flex;
+}
+
+h2{
+    margin: auto;
+    color: black;
+}
+
+img{
+    margin: auto;
+}
