@@ -31,7 +31,7 @@ body{
      font-family:Arial, Helvetica, sans-serif;
   }
   
- input:focus{
+ textarea, input:focus{
     outline: none;
     border: solid 1px darkblue;
  }
