@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/css/estiloscadastro.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro endereço</title>
+</head>
+<body>
+    <form id= "cadastroEndereco" method="post">
+
+        <h1>Cadastre o seu endereço:</h1>
+
+        <label for="estado"> Estado:</label>
+        <input type="text" name="estado" id="estado" readonly autofocus><br>
+        
+        <label for="cidade"> Cidade:</label>
+        <input type="text" name="cidade" id="cidade" readonly><br>
+        
+        <label for="bairro"> Bairro:</label>
+        <input type="text" name="bairro" id="bairro" readonly><br>
+		
+		<label for="rua"> Rua:</label>
+		<input type="text" name="rua" id="rua" readonly><br>
+		
+		<label for="numero"> Número da casa/apartamento:</label>
+		<input type="text" name="numero" id="numero" required><br>
+        
+        <label for="cep"> CEP:</label>
+        <input type="text" name="cep" id="cep" required placeholder="00000-000" ><br>
+
+        <label>Complemento:</label>
+        <textarea name="complemento" id="complemento" rows="5" cols="65" maxlength="100" required placeholder="Escreva aqui informações adicionais."></textarea>
+        <br>
+		
+        <button type="submit" id="enviar">Cadastrar</button>
+		
+    </form>
+
+		<script src="./script/scriptCadastroEndereco.js"></script>
+    
+</body>
+</html>

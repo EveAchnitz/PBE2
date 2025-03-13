@@ -1,0 +1,98 @@
+body{
+    background-color: #bea47e;
+}
+
+label, input, select, textarea{
+    display: block ;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+label{
+  color: black;  
+}
+
+input{
+    background-color: #fff5e5;
+}
+
+textarea{
+    background-color: #fff5e5;
+}
+
+h1, h2{
+    color: black;
+    text-align: center;
+}
+
+.roboto-thin {
+   font-family: "Roboto", sans-serif;
+ }
+
+ form{
+    width: 500px;
+    margin: auto;
+    background: #f0dfc7;
+    padding: 40px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+ }
+
+ label{
+    padding: 0;
+    margin: 0;
+    width: 100% ;
+    font-size: 18px;
+ }
+
+ .emlinha{
+    display: inline;
+    width: 10%;
+    font-size: 16px;
+ }
+
+ .medidas{
+    display: inline;
+    width: 35%;
+ }
+
+ input[type='checkbox'], input[type='radio']{
+   margin-right: 0px;
+   margin-left: 15px;
+  
+}
+
+input:focus, select:focus, textarea:focus{
+   outline: none;
+   border: solid 1px #000000;
+  
+}
+
+ button{
+    width: 100%;
+   border: 2px solid rgb(56, 25, 2);
+   background-color: #dcc5a3;
+   color: rgb(56, 25, 2);
+   font-weight: bold;
+   cursor: pointer;
+   padding: 15px;
+ }
+
+ button a{
+    color: rgb(56, 25, 2);
+ }
+
+ button:hover{
+    background-color:rgb(56, 25, 2);
+    color: bisque;
+    transition:all linear 0.3;
+ }
+
+ button a:hover{
+    color: bisque;
+ }
+
+ #sucesso{
+    margin-top: 250px;
+ }
